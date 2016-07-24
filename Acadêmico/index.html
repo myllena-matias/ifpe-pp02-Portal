@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Index</title>
+	<link rel="stylesheet" type="text/css" href="css\academico.css"/>
+
+	</head>
+	
+	<body>
+	
+	<div id="tudo"><br><br><br><br>
+		<div align="center">
+		<div id="interface">
+		
+		
+	<img src="Imagens\inicial.jpg" height=110 width=210/ style="float:left;"></a><h1>Portal de Aulas</h1><br><br>
+	
+		<div class="slideshow-container">
+
+			<div class="mySlides fade">
+				<a href="http://www.bbc.com/portuguese/brasil-36717732" target=”_blank”>
+			  <img src="Imagens\noticia1.jpg" style="width:55%"></a>
+			  <div class="text">Do supercomputador à nanotecnologia contra câncer: quatro grandes projetos científicos que estão parados no Brasil</div>
+			</div>
+
+			<div class="mySlides fade">
+				<a href="http://www.bbc.com/portuguese/internacional-36760862" target=”_blank”>
+			  <img src="Imagens\noticia2.jpg" style="width:55%"></a>
+			  <div class="text">Arqueólogos fazem 'descoberta inédita' de cemitério filisteu em Israel</div>
+			</div>
+
+			<div class="mySlides fade">
+				<a href="http://www.bbc.com/portuguese/internacional-36680819" target=”_blank”>
+			  <img src="Imagens\noticia3.jpg" style="width:55%"></a>
+			  <div class="text">Como é o laboratório supersecreto onde foi inventado o gás lacrimogêneo</div>
+			</div>
+
+			</div>
+			<br>
+
+			<div style="text-align:center">
+			  <span class="dot"></span>
+			  <span class="dot"></span>
+			  <span class="dot"></span>
+			</div>
+
+		<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			for (i = 0; i < slides.length; i++) {
+			   slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex> slides.length) {slideIndex = 1}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex-1].style.display = "block";
+			dots[slideIndex-1].className += " active";
+			setTimeout(showSlides, 2000); // Change image every 2 seconds
+		}
+		</script>
+		
+	<nav id="menu">
+	<h1> Menu Principal</h1>
+	<ul type="disc">
+		<li><a href="professor/menu_professor.html"> Estratégias de Ensino</a></li>
+		<li><a href="aluno/menu_aluno.html"> Livros e Artigos</a></li>
+		<li><a href="secretaria/menu_secretaria.html"> Visitas Educacionais</a></li>
+		<li><a href="help.html"target="_blank"> EducaLOJA</a></li>
+		<li><a href="help.html"target="_blank"> Cadastro</a></li>
+	</ul>
+	</nav>
+	</div>
+		</div>
+</div>
+	
+	</body>
+</html>

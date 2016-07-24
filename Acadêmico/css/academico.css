@@ -1,0 +1,202 @@
+﻿/* Documento CSS */
+<meta charset="UTF-8"/>
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+h1 { font-family: 'Metrophobic', Arial, serif; font-weight: 400; }
+
+/* Formatação de plano de fundo */
+body{
+	background-image: url("../Imagens/fundo2.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top center;
+	background-size: cover;
+}
+
+div#interface {
+	width: 1000px;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 10px black;
+	padding: 10px;
+}
+
+style{
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #000000;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+style}
+
+
+/* Formatação de Menu */
+
+div#lista{
+	width: 300px; margin: 0 auto;
+	}
+
+/* Formatação de texto */
+
+p{
+	text-align: justify;
+	text-indent: 50px;
+}
+
+/* Formatação de imagens com legendas */
+
+figure.foto-legenda {
+	position: relative;
+	border: 8px solid white;
+	box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda imagens{
+	width: 100%;
+	height: 100%;
+}
+
+figure.foto-legenda figcaption {
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	background-color: rgba(0,0,0,.4);
+	color: white;
+	width: 100%;
+	height: 100%:
+	padding: 10px;
+	box-sizing: border-box;
+	transition: opacity 1s;
+}
+
+figure.foto-legenda: hover figcaption{
+	opacity: 1;
+}
+.campo {
+	background-color: #FFFFFF;	
+	font-size: medium;
+	font-family: serif;
+}
+
+/* Formatação de Input */
+input{
+        background:#FFFFFF;
+		font-size: medium;
+        border:1px solid #32CD32;
+}
+
+.lado1 {
+    float:  left;
+    margin-right: 5em;
+}
+
+.lado2 {
+    float:  left;
+    margin-right: 1em;
+}
+
+#tudo {
+  width: 1260px;
+  margin:0 auto;			
+ }
+ 
+ /* Formatação do Menu */
+ 
+ nav#menu{
+	 display: block;
+ }
+ 
+ nav#menu ul{
+	 list-style : nome;
+	 text-transform: uppercase;
+	 position: absolute;
+	 top: -20px;
+	 left: 450px;
+}
+
+nav#menu li {
+	display: inline-block;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 2px;
+	transition: background-color 1s;
+}
+
+nav#menu li:hover {
+	background-color: #606060;
+}
+
+nav#menu h1{
+	display: none;
+}
+
+nav#menu a {
+	color: #000000;
+	text-decoration: none;
+}
+
+nav#menu  a:hover{
+	color: #ffffff;
+	text-decoration: underline;
+}
